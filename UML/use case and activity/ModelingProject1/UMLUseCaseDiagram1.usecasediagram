@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="15d47452-57fe-4a54-8a21-1a8bf8317e1e" name="UMLUseCaseDiagram1" linkedPackageId="0b9a896d-dd20-4377-99d8-f06b08e8993f" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="5fdf90f7-1c75-4283-9bc0-49264fea9509">
+      <profileInstance Id="7129ab75-c8b1-43cc-96c0-d4422c5f61b4" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="dece63b9-d1be-4139-8976-103fcfa63aa7">
+      <profileInstance Id="98d22ebf-0a99-4035-b857-16ff5133fa96" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="32a14b1c-fe51-48e1-9fe2-f49aa7096ac2" name="Пользователь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="21fbd3a0-5e8c-4013-a25b-e4f9addda82c" />
+        <targetEnds>
+          <association Id="17528c13-faca-4adb-83e9-87a3709e53d9" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Управление светом" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="de5e4173-73bd-45e0-b85d-8dfc35fa182c" LastKnownName="Управление светом" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="166afd3a-f275-450d-8d42-d704cae48037" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ddadf59e-e816-4650-9de1-93fc2c4f3a4b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22bd7ba7-80b1-4cb8-9a5d-f012cc1d5bd3" name="Управление светом" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5e7166a2-e4c5-4d91-901c-1a331eacba71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0bdb7c6f-dbff-41c2-af67-e42396741a8b" />
+          </association>
+          <association Id="376af5d9-efdf-4d9b-a521-f26047894117" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Управление климат-контролем" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f10bb4c0-9eae-4ef8-bc8c-d9c4dc5ad237" LastKnownName="Управление климат-контролем" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="601ffde8-d6a5-4e9c-ae9b-f5d910403436" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="72897a86-1b35-4c7a-a5a4-4b61af398807" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7ed8ab01-ad5d-42be-98b0-dc581cb362fb" name="Управление климат-контролем" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7d27a3f9-2378-4cec-8dd7-b19f883d98a1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6bf083c2-c67e-4a2b-b1e5-afa63950da7a" />
+          </association>
+          <association Id="fe9fbf1a-2f00-4465-86f2-b62aec69f235" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Управление электричеством" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="81565fc1-a711-4c0a-8336-9eebbe29396b" LastKnownName="Управление электричеством" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e2f476f-f582-4693-a64e-8d04bb4a44b6" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3523255d-962d-4734-b14c-02a83348c10e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c25d9756-27cc-43e9-8830-c54fb997cc36" name="Управление электричеством" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dba2c831-cbe5-4dc8-84d5-ca6a659f0d3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="51d79a8e-48c0-4928-9398-aac000589a6d" />
+          </association>
+          <association Id="155a6420-ecff-43b8-8f49-6d264f899638" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Управление аудио- и видеосистемой" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f1a4a75c-2550-4825-aeb2-867d4e443970" LastKnownName="Управление аудио- и видеосистемой" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b9c5058-3b15-4d35-b73f-467b9a83aa10" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5ff3c4fc-3c98-4a29-8bf0-56b938fe353d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="82562e02-055d-4a89-92c6-c5b06e953585" name="Управление аудио- и видеосистемой" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="25781be6-f822-4f82-9aa7-df51297e8529" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fd724480-ca9b-4b3f-820b-52dcd19717b4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f3b67984-4a7e-4855-916d-680a758427a7" name="Контроллер света" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="73f78d27-e07f-4c3a-8c33-9eb9c019756e" />
+        <targetEnds>
+          <association Id="5d0e04cf-1730-4b99-aefb-2a94354d9bcb" isDerived="false" sourceEndRoleName="Контроллер света" targetEndRoleName="Управление светом" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="de5e4173-73bd-45e0-b85d-8dfc35fa182c" LastKnownName="Управление светом" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="245ebcd8-c8da-477c-8376-0e21feb6143a" name="Контроллер света" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e1be79ad-2557-455c-b5b2-5a5c1667067c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d661f156-984d-45db-830d-d62ae38474a4" name="Управление светом" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="11b9dc99-139d-4b01-8662-2ba4fe31c0e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7336945-e8b3-407a-90b6-5c97aa8797eb" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="08efc079-9b38-419f-b84a-81f84db963f1" name="Контроллер температуры" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b4344d86-7b54-42de-9a28-cd5482362d68" />
+        <targetEnds>
+          <association Id="7c1a3bc2-6ed3-40a2-ae38-562e4e2917b3" isDerived="false" sourceEndRoleName="Датчик температуры" targetEndRoleName="Управление климат-контролем" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f10bb4c0-9eae-4ef8-bc8c-d9c4dc5ad237" LastKnownName="Управление климат-контролем" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96a8b9ac-cdec-4376-ace1-9631ec21568c" name="Датчик температуры" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="582c588c-5461-4e69-ad8e-1cdbf30f0de9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e12ce2a-fcc0-43d9-84b4-7f2b7ee022ac" name="Управление климат-контролем" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5dfc269b-8f57-455d-adb4-6189bd9776f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="18d035f9-cc8f-4087-8684-0284c9e99227" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="faab32ce-bec1-4ec5-9dec-41d1f5f3969e" name="Камера видеонаблюдения" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45e2edde-cf51-465d-af6e-41559b497ccb" />
+        <targetEnds>
+          <association Id="c304dd2d-9ef2-4c9d-baf4-4682ff7f20a9" isDerived="false" sourceEndRoleName="Камера видеонаблюдения" targetEndRoleName="Управление системой видеонаблюдения" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4f1840e5-554e-4ba8-8af2-1cb2980a8cab" LastKnownName="Управление системой видеонаблюдения" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08b9d115-4573-42c3-a9dc-6db199726ce3" name="Камера видеонаблюдения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bf1e6741-faf4-4bee-baeb-06fe96932286" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed90e966-6a17-4b09-ae05-dbdf9d23e53f" name="Управление системой видеонаблюдения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2be904ee-b384-4f1b-8b60-64d76c73c179" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8bbdbd8c-7879-4ed3-b3f9-e402925d0460" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="558ee1ed-85cd-4780-a57d-e0a76bc50441" name="Контроллер дыма" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4f2da0b3-65ab-4325-97ae-1e92263bf8bd" />
+        <targetEnds>
+          <association Id="57eb713d-5ea2-400a-92fe-b5ae3d467f59" isDerived="false" sourceEndRoleName="Датчики дыма" targetEndRoleName="Управление системой пожаротушения" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f1041137-7e85-429b-84c8-d243544af897" LastKnownName="Управление системой пожаротушения" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f418e01-ea24-4a4c-ac3d-2b9fa613eec7" name="Датчики дыма" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1cc07b70-5b75-426d-84bb-c3b728823e33" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="68920091-9bb6-4f48-9c2a-a6f7ffc4bd64" name="Управление системой пожаротушения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d1d18dd3-5281-4c64-96c0-c48e9e05768c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cf75029a-0327-4b5b-93c0-048378a60b80" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="de5e4173-73bd-45e0-b85d-8dfc35fa182c" name="Управление светом" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c0c326b9-c65c-476a-9736-6a42d313456b" />
+        <targetEnds>
+          <association Id="fc1dd02a-429b-4286-8d4a-be50dbfd730c" isDerived="false" sourceEndRoleName="Управление светом" targetEndRoleName="Контроллер света" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="f3b67984-4a7e-4855-916d-680a758427a7" LastKnownName="Контроллер света" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cab47c9f-c68b-418d-ae61-9651854df175" name="Управление светом" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="118748ca-10f1-49c1-965f-9982cc100b60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b107f062-c7b5-44b2-9458-be50df11f023" name="Контроллер света" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="762f3cbd-a25a-46b1-bf75-f94f1a19f947" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7f982a1d-56ab-4175-96cd-cf3dd79dd99a" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ce97dcb9-b326-4e8b-ac20-aa45e6a35823" name="БД" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5731113d-6e15-46ec-a975-6b77d8dcd9e2" />
+        <targetEnds>
+          <association Id="83990d7c-cf0c-417b-9aee-eeb1adef6851" isDerived="false" sourceEndRoleName="БД" targetEndRoleName="Управление системой видеонаблюдения" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4f1840e5-554e-4ba8-8af2-1cb2980a8cab" LastKnownName="Управление системой видеонаблюдения" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e717cbb-84d6-4399-934a-c8fa01a6b125" name="БД" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c35e7f8d-8c30-41e2-a8ce-ee96ca85dbaf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="64eb8307-d0a9-48d4-aaa4-2cd38a8e68bd" name="Управление системой видеонаблюдения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8bd075a7-8134-4741-bba2-c56c502a0d6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="78ae6442-dd67-4197-be9b-3912cdd69075" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f10bb4c0-9eae-4ef8-bc8c-d9c4dc5ad237" name="Управление климат-контролем" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78faf6f1-0eb5-4517-b289-ab24a454e809" />
+        <targetEnds>
+          <association Id="a6b39d93-9ee2-4cbf-b6bb-d657c2673b35" isDerived="false" sourceEndRoleName="Управление климат-контролем" targetEndRoleName="Датчик температуры" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="08efc079-9b38-419f-b84a-81f84db963f1" LastKnownName="Контроллер температуры" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7759a0c9-27df-4efd-bc1b-2422e175f7ee" name="Управление климат-контролем" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1861a0ed-0315-45d1-aaef-8ac3c2a76eb7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cfa33010-f1f3-4613-8e1d-8c5b50c3b5be" name="Датчик температуры" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7efa5db1-1b35-4364-909e-9c1bc9a820ce" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a47d01ba-4110-4ea9-8901-b99296111ce2" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4f1840e5-554e-4ba8-8af2-1cb2980a8cab" name="Управление системой видеонаблюдения" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ff206c2c-adfd-473d-906c-bdcb799f82ec" />
+        <targetEnds>
+          <association Id="5c09a97f-ad95-4410-bcbf-60d95f7dc6c9" isDerived="false" sourceEndRoleName="Управление системой видеонаблюдения" targetEndRoleName="Пользователь" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="32a14b1c-fe51-48e1-9fe2-f49aa7096ac2" LastKnownName="Пользователь" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b923c652-9ec9-43ee-a16c-ab24efa24b42" name="Управление системой видеонаблюдения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="209ac366-b37d-4206-bae2-a5e46137ced6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ff5f311a-24d5-421d-89d0-2d480d196b1a" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="51fb2bf0-efbf-4e9d-af6e-0a77214da2b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f49c895e-307b-44f8-8395-8a8b7e61e125" />
+          </association>
+          <association Id="9073bc16-8f8a-4006-ba02-f2a3912804b7" isDerived="false" sourceEndRoleName="Управление системой видеонаблюдения" targetEndRoleName="БД" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="ce97dcb9-b326-4e8b-ac20-aa45e6a35823" LastKnownName="БД" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="835e684c-c756-4364-9b62-fef309cb09e5" name="Управление системой видеонаблюдения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f84c2f69-79ce-4664-a8c8-dd55abc816f1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="04aceae5-9192-4bb5-8942-58d91a3bd2f5" name="БД" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fe388f1d-ee3a-424c-a61d-97ce15981df9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a2e6698b-0557-4df3-b6ef-5fe1d9b4fd2b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f1041137-7e85-429b-84c8-d243544af897" name="Управление системой пожаротушения" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="56a7c669-cf08-485c-a786-ff1467a3e94a" />
+        <targetEnds>
+          <association Id="788465ca-22cb-4b6c-ac93-857025641a6e" isDerived="false" sourceEndRoleName="Управление системой пожаротушения" targetEndRoleName="Пожарная служба" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="65dc3ed5-19c5-4808-83b8-7dc70fd7a1fa" LastKnownName="Пожарная служба" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c084edf3-1767-4cec-8f96-d88a7204b594" name="Управление системой пожаротушения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="19f80adc-0fff-40a1-961d-dde82727c404" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b76385bf-9cbe-45de-be23-17283c844275" name="Пожарная служба" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="916b86ee-4968-4f8b-95bd-dc4a646d970e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f66f7321-ce80-488e-b45b-d16927cfdbf4" />
+          </association>
+          <association Id="a739ea04-7135-4837-8c5f-8d359707e43f" isDerived="false" sourceEndRoleName="Управление системой пожаротушения" targetEndRoleName="Пользователь" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="32a14b1c-fe51-48e1-9fe2-f49aa7096ac2" LastKnownName="Пользователь" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="01773f78-2de9-4121-b7cb-f862f982ed42" name="Управление системой пожаротушения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aa9b2b6c-0603-4db5-8b53-718440f07f00" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ce3fc492-0449-4c58-bcae-edac0d3fb99c" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e6c6fd3a-9205-48f5-8a8c-3575139de541" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7c53db13-03ce-4599-8245-20864d61d69f" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="65dc3ed5-19c5-4808-83b8-7dc70fd7a1fa" name="Пожарная служба" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1369f6f7-f3e3-4da3-9ad8-eb73a0263716" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="d546afb9-abff-4681-8687-6a24b2613376" name="Контроллер электричества" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d857d3e-07fb-4dfc-90be-91f40f88841d" />
+        <targetEnds>
+          <association Id="efc8db95-0c50-4b32-85fb-142bbc20009e" isDerived="false" sourceEndRoleName="Контроллер электричества" targetEndRoleName="Управление электричеством" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="81565fc1-a711-4c0a-8336-9eebbe29396b" LastKnownName="Управление электричеством" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9204785-93f8-4cd9-b4a3-0d254daaa15c" name="Контроллер электричества" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a3bebb5d-21ae-442b-8dfc-86ccc2cbae07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="64e9f770-190b-456e-a001-6b3caf073758" name="Управление электричеством" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="520e45f1-6943-402d-bf3c-054451171175" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b4a1c593-9e82-4b02-83f5-d90ab0fe20c0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="81565fc1-a711-4c0a-8336-9eebbe29396b" name="Управление электричеством" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a0ed6108-c3f0-4c01-9031-1f59e2589ce6" />
+        <targetEnds>
+          <association Id="51378674-3b75-40f3-b18e-05623e1798b3" isDerived="false" sourceEndRoleName="Управление электричеством" targetEndRoleName="Контроллер электричества" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="d546afb9-abff-4681-8687-6a24b2613376" LastKnownName="Контроллер электричества" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="40fca66e-25a3-4bd9-9315-2f138e54f5ac" name="Управление электричеством" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8e8fb31d-38e0-4caa-b85a-de11711f9de6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5cc0757f-d1bf-416a-a84e-894f97777c84" name="Контроллер электричества" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0dfa3929-111c-436a-85fc-113b32b47b1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be30c493-b553-4d37-b076-c1ac635b4d79" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f1a4a75c-2550-4825-aeb2-867d4e443970" name="Управление аудио- и видеосистемой" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25598544-0dca-4ea9-b5a3-6c9db401a21d" />
+        <targetEnds>
+          <association Id="a481c68c-bbdb-4e7d-9ae4-5808c60479ac" isDerived="false" sourceEndRoleName="Управление аудио- и видеосистемой" targetEndRoleName="Аудио, видеосистема" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="383d91e2-ca66-451e-a73c-7426d79e045b" LastKnownName="Аудио, видеосистема" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fad856c6-2dc4-4ea4-b0a2-5a7e4c34c64a" name="Управление аудио- и видеосистемой" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d27d2c57-2f35-45d3-8f36-02c56ce611be" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="68f3d5f8-11ee-424a-9069-06cc5bdbd553" name="Аудио, видеосистема" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="db54b181-4806-4ac8-940a-3d68368b5464" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="77dffef6-b875-41f3-844f-35c2ca45204b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="383d91e2-ca66-451e-a73c-7426d79e045b" name="Аудио, видеосистема" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f9acf12-1480-4c6d-95fb-b7618df5a730" />
+        <targetEnds>
+          <association Id="967b1754-8c72-4d71-b117-dd8b890cedb1" isDerived="false" sourceEndRoleName="Аудио, видеосистема" targetEndRoleName="Управление аудио- и видеосистемой" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f1a4a75c-2550-4825-aeb2-867d4e443970" LastKnownName="Управление аудио- и видеосистемой" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="408b69b4-959d-48fb-9c0d-e3bb0476d31d" name="Аудио, видеосистема" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a9240c45-b0cf-45b2-858b-6c1ff49b8fa0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="520188aa-bf76-44ff-87d8-f592e51b82cd" name="Управление аудио- и видеосистемой" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d1abdab4-20c1-490a-8ecf-6673a3bc63eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b8e19967-cb4b-4208-97be-b3cd78f1db74" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="0b9a896d-dd20-4377-99d8-f06b08e8993f" name="ModelingProject1">
+    <elementDefinition Id="5648b282-acd7-4489-96ba-4e4042fc9965" />
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="bdd005cb-7ed7-4270-ad6c-b850239e6579" name="Activity1" linkedPackageId="5a6f6e56-60dd-4854-8179-04c255348ec5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="7ccc4557-02f4-41be-a260-76d2cf43fcc8" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="923a4023-047e-44a3-93ae-46ca57b2005f" />
+        <nodes>
+          <initialNode Id="d9edfe98-0b63-4fe0-941e-f5d3684f8439" name="Initial1" isLeaf="false">
+            <elementDefinition Id="08437e91-9216-4c71-91d0-a5ba47a4591d" />
+            <flowNodeTargets>
+              <controlFlow Id="4dab3ac9-2185-40c9-bc2b-47cb2f036112" isLeaf="false">
+                <opaqueActionMoniker Id="873c3ace-1d4b-4649-b838-aa0467bea09f" LastKnownName="Вход в систему" />
+                <elementDefinition Id="177288f9-2eab-47e1-a5af-1aa7560b1206" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="873c3ace-1d4b-4649-b838-aa0467bea09f" name="Вход в систему" isLeaf="false">
+            <elementDefinition Id="208f6d52-57e6-4892-a8f3-52812870e185" />
+            <flowNodeTargets>
+              <controlFlow Id="7657c419-3bb1-46fe-aaa5-6fec4b05753d" isLeaf="false">
+                <decisionNodeMoniker Id="9902e816-4aa5-4597-bc27-5ed7c692597c" LastKnownName="Decision3" />
+                <elementDefinition Id="1d50d306-cf0b-4469-96fd-0c156dcb5552" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="aad34f87-324e-45fb-8f51-d4d020ea4a64" name="Отправка запроса на получение данных" isLeaf="false">
+            <elementDefinition Id="f81e6812-dd39-4d48-a5bb-161bdd9bb70f" />
+            <flowNodeTargets>
+              <controlFlow Id="c7f20fef-6bb5-4db7-b223-1a54c23de598" isLeaf="false">
+                <opaqueActionMoniker Id="f45077ab-bc78-49f3-89e2-4578f25ada10" LastKnownName="Получение данных с контроллеров" />
+                <elementDefinition Id="6cc0e53f-a88e-4b48-93f3-589ec8c35a6d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f45077ab-bc78-49f3-89e2-4578f25ada10" name="Получение данных с контроллеров" isLeaf="false">
+            <elementDefinition Id="cc32c2d6-95b0-4ad1-8f3a-80d6f3279a6c" />
+            <flowNodeTargets>
+              <controlFlow Id="0c1cdb44-9e1d-4be7-96dc-34a741035189" isLeaf="false">
+                <decisionNodeMoniker Id="2e63e1de-90f6-4dfd-82a0-76566cc8aeab" LastKnownName="Decision1" />
+                <elementDefinition Id="d610a3a1-1d65-4455-a09c-28fd037682ad" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="3d584d0c-db93-4f88-bc02-4db0ba2c099c" name="Decision2" isLeaf="false">
+            <elementDefinition Id="1dedaa68-101a-4e42-9b06-b3b9a1e74fd8" />
+            <flowNodeTargets>
+              <controlFlow Id="36d0afb9-5c57-46bd-8543-f4ed1e130f17" isLeaf="false">
+                <opaqueActionMoniker Id="76209170-fb28-4c00-986d-f73f9ee7b939" LastKnownName="Нажата кнопка выхода" />
+                <elementDefinition Id="48a8255f-cb49-4000-b0a6-a9ea916c72a9" />
+              </controlFlow>
+              <controlFlow Id="fff66622-2a53-443c-95bf-a12ee7124166" isLeaf="false">
+                <opaqueActionMoniker Id="bae825d3-3178-43a8-a909-f30c7596cba4" LastKnownName="Не нажата кнопка выхода" />
+                <elementDefinition Id="ad3b5631-ba94-4f7c-b502-0de68597acc7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="76209170-fb28-4c00-986d-f73f9ee7b939" name="Нажата кнопка выхода" isLeaf="false">
+            <elementDefinition Id="61e6ea68-f16f-49cf-a32f-d2363cd3b73a" />
+            <flowNodeTargets>
+              <controlFlow Id="5b6cccbd-326a-491f-8216-2b71c4b533b4" isLeaf="false">
+                <activityFinalNodeMoniker Id="61252a69-6327-427b-8e0e-c84ee8639a8f" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="9de6559d-e179-4525-86a3-a1f931c23732" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bae825d3-3178-43a8-a909-f30c7596cba4" name="Не нажата кнопка выхода" isLeaf="false">
+            <elementDefinition Id="968fa52c-bb63-49f1-b554-7f77c7e0e783" />
+            <flowNodeTargets>
+              <controlFlow Id="d4b571fd-6527-4478-97fd-5b4eda85e744" isLeaf="false">
+                <opaqueActionMoniker Id="873c3ace-1d4b-4649-b838-aa0467bea09f" LastKnownName="Вход в систему" />
+                <elementDefinition Id="c1e5bd00-f5f0-4312-9c69-d1281def01b6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="61252a69-6327-427b-8e0e-c84ee8639a8f" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="f539f627-6ed3-4ad7-83a4-d41ab61f7205" />
+          </activityFinalNode>
+          <decisionNode Id="9902e816-4aa5-4597-bc27-5ed7c692597c" name="Decision3" isLeaf="false">
+            <elementDefinition Id="afe873b6-f94e-4d14-8e7d-1d6b8d87feac" />
+            <flowNodeTargets>
+              <controlFlow Id="fbc076ed-3f1d-46cf-a84e-caf723fed987" isLeaf="false">
+                <opaqueActionMoniker Id="aad34f87-324e-45fb-8f51-d4d020ea4a64" LastKnownName="Отправка запроса на получение данных" />
+                <elementDefinition Id="349acea2-b146-46f9-ab29-8fd08301ab3c" />
+              </controlFlow>
+              <controlFlow Id="810383a5-3da8-420f-99d3-5a6bb5e4048c" isLeaf="false">
+                <opaqueActionMoniker Id="d76a807e-e178-4c9c-a082-4489edd79ceb" LastKnownName="Изменять состояние контроллера" />
+                <elementDefinition Id="a046bdb1-7495-485e-b9f4-24cca26ea678" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="d76a807e-e178-4c9c-a082-4489edd79ceb" name="Изменять состояние контроллера" isLeaf="false">
+            <elementDefinition Id="811c3d9b-0c7e-4fd0-a7b4-74e40875aff8" />
+            <flowNodeTargets>
+              <controlFlow Id="e22c5ec0-6a25-4214-91c3-bdb098b64000" isLeaf="false">
+                <opaqueActionMoniker Id="90a9ce26-807f-4430-a06a-6372f97f92df" LastKnownName="Не изменять состояние контроллера" />
+                <elementDefinition Id="580cce58-09c1-45b4-814d-f09cd980578a" />
+              </controlFlow>
+              <controlFlow Id="2c20c5e7-e6fb-4cad-ab71-dd15604a3af2" isLeaf="false">
+                <forkNodeMoniker Id="5693d4cf-12ff-4a64-9e1d-a5caf62c0005" LastKnownName="Fork1" />
+                <elementDefinition Id="711e1a98-5c8a-4a09-905e-94137498ff64" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="2e63e1de-90f6-4dfd-82a0-76566cc8aeab" name="Decision1" isLeaf="false">
+            <elementDefinition Id="a5e8d3ca-00a9-407c-bcb8-feb276b58035" />
+            <flowNodeTargets>
+              <controlFlow Id="c0d71707-c528-47c1-8883-60cd6f360ac6" isLeaf="false">
+                <opaqueActionMoniker Id="d76a807e-e178-4c9c-a082-4489edd79ceb" LastKnownName="Изменять состояние контроллера" />
+                <elementDefinition Id="b45992b3-d841-4db6-8a7f-90ff58d627bc" />
+              </controlFlow>
+              <controlFlow Id="229343ee-5864-461c-8a5b-b686a07341fe" isLeaf="false">
+                <opaqueActionMoniker Id="90a9ce26-807f-4430-a06a-6372f97f92df" LastKnownName="Не изменять состояние контроллера" />
+                <elementDefinition Id="21c14f1b-5a43-4c34-9c5b-80069ddb7784" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="90a9ce26-807f-4430-a06a-6372f97f92df" name="Не изменять состояние контроллера" isLeaf="false">
+            <elementDefinition Id="0539ca9b-3c35-487b-8f4f-3e147a8082c6" />
+            <flowNodeTargets>
+              <controlFlow Id="83ed6bd9-b31a-48d6-b7e9-74cc00880248" isLeaf="false">
+                <decisionNodeMoniker Id="3d584d0c-db93-4f88-bc02-4db0ba2c099c" LastKnownName="Decision2" />
+                <elementDefinition Id="8d3cd5ed-0470-4a81-9f67-9a2ab61cee06" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="5693d4cf-12ff-4a64-9e1d-a5caf62c0005" name="Fork1" isLeaf="false">
+            <elementDefinition Id="e00b28c1-f2ec-4f11-98a8-32c3cef41601" />
+            <flowNodeTargets>
+              <controlFlow Id="29a88b44-c006-495b-a64b-94f141f9924a" isLeaf="false">
+                <opaqueActionMoniker Id="3fd22122-3eb0-4ab2-a113-3cfdc38a4819" LastKnownName="Изменить состояние контроллера света" />
+                <elementDefinition Id="d7da9e77-fa69-4624-ab60-8cda373b1ff3" />
+              </controlFlow>
+              <controlFlow Id="ca8718ec-dfd5-4fdc-b23a-be9df3f3bb86" isLeaf="false">
+                <opaqueActionMoniker Id="7179aab3-3b0e-4e7e-9a3f-860a6d141df3" LastKnownName="Изменить состояние контроллера электричества" />
+                <elementDefinition Id="592bb8e5-8d48-4d3b-a438-42a352dd156a" />
+              </controlFlow>
+              <controlFlow Id="36a9a3fe-ab30-41af-a4df-85010ccde9fa" isLeaf="false">
+                <opaqueActionMoniker Id="7d780ace-96cf-43e8-b62e-78509aad2aa3" LastKnownName="Изменить состояние контроллера температуры" />
+                <elementDefinition Id="f9c589c4-dcf9-4b87-9e66-05580af8c54b" />
+              </controlFlow>
+              <controlFlow Id="6c2b0c90-d1a6-42ef-95a2-90381c56f80d" isLeaf="false">
+                <opaqueActionMoniker Id="ce87b3d6-3a12-493d-960f-69b0622175f5" LastKnownName="Изменить состояние аудио- и видеосистемы" />
+                <elementDefinition Id="b5c0deda-89d4-47c3-a358-e76832205bcc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="3fd22122-3eb0-4ab2-a113-3cfdc38a4819" name="Изменить состояние контроллера света" isLeaf="false">
+            <elementDefinition Id="be0cc339-0390-4e6e-bebb-61a8d4a15478" />
+            <flowNodeTargets>
+              <controlFlow Id="4693608a-988a-4652-afcd-c97750f97ced" isLeaf="false">
+                <joinNodeMoniker Id="be80fac0-494c-4bea-9c49-dbf13e32e86d" LastKnownName="Join1" />
+                <elementDefinition Id="cc592c37-9beb-44ac-ad5f-4f63854c1a81" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="7179aab3-3b0e-4e7e-9a3f-860a6d141df3" name="Изменить состояние контроллера электричества" isLeaf="false">
+            <elementDefinition Id="819f1511-ba89-467b-b74e-a0e87717111d" />
+            <flowNodeTargets>
+              <controlFlow Id="a87b3d54-64c6-4b29-ba58-b3a9d7d1262a" isLeaf="false">
+                <joinNodeMoniker Id="be80fac0-494c-4bea-9c49-dbf13e32e86d" LastKnownName="Join1" />
+                <elementDefinition Id="787b7166-9b15-47b5-ac99-72feae74bf47" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="7d780ace-96cf-43e8-b62e-78509aad2aa3" name="Изменить состояние контроллера температуры" isLeaf="false">
+            <elementDefinition Id="76b36488-7635-43b3-88d5-7a0008fcd6fe" />
+            <flowNodeTargets>
+              <controlFlow Id="02d0a132-3226-4e57-8fc7-5fc8681fb297" isLeaf="false">
+                <joinNodeMoniker Id="be80fac0-494c-4bea-9c49-dbf13e32e86d" LastKnownName="Join1" />
+                <elementDefinition Id="c114e62c-9f28-44f1-8a9b-1a12293aa8e5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ce87b3d6-3a12-493d-960f-69b0622175f5" name="Изменить состояние аудио- и видеосистемы" isLeaf="false">
+            <elementDefinition Id="f1a05761-9e7e-493c-8483-07773be47948" />
+            <flowNodeTargets>
+              <controlFlow Id="5042f374-73c0-438a-8e8a-6b151d88f5a3" isLeaf="false">
+                <joinNodeMoniker Id="be80fac0-494c-4bea-9c49-dbf13e32e86d" LastKnownName="Join1" />
+                <elementDefinition Id="8258c50b-52ab-47d4-8b8a-bb599f97f579" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode Id="be80fac0-494c-4bea-9c49-dbf13e32e86d" name="Join1" isLeaf="false">
+            <elementDefinition Id="d83cc976-5ca1-4e71-a650-670fdecb70e3" />
+          </joinNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="5a6f6e56-60dd-4854-8179-04c255348ec5" name="ModelingProject1">
+    <elementDefinition Id="5648b282-acd7-4489-96ba-4e4042fc9965" />
+    <profileInstances>
+      <packageHasProfileInstances Id="b6c48408-7d9d-4d9b-a7e3-c403e1902f34">
+        <profileInstance Id="2647b6d5-2363-4f76-96ce-6edae3613fca" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="eb8007c2-af7b-40d5-894b-4bafac7d409b">
+        <profileInstance Id="5d88f537-c865-49c7-9c4c-4854980d90ca" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

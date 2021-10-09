@@ -1,0 +1,1262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="5648b282-acd7-4489-96ba-4e4042fc9965"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="21fbd3a0-5e8c-4013-a25b-e4f9addda82c"
+        name="Пользователь"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="0bdb7c6f-dbff-41c2-af67-e42396741a8b"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Управление светом"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c0c326b9-c65c-476a-9736-6a42d313456b"
+              LastKnownName="Управление светом"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ddadf59e-e816-4650-9de1-93fc2c4f3a4b"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5e7166a2-e4c5-4d91-901c-1a331eacba71"
+                  name="Управление светом"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6bf083c2-c67e-4a2b-b1e5-afa63950da7a"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Управление климат-контролем"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="78faf6f1-0eb5-4517-b289-ab24a454e809"
+              LastKnownName="Управление климат-контролем"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="72897a86-1b35-4c7a-a5a4-4b61af398807"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7d27a3f9-2378-4cec-8dd7-b19f883d98a1"
+                  name="Управление климат-контролем"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="51d79a8e-48c0-4928-9398-aac000589a6d"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Управление электричеством"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a0ed6108-c3f0-4c01-9031-1f59e2589ce6"
+              LastKnownName="Управление электричеством"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3523255d-962d-4734-b14c-02a83348c10e"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dba2c831-cbe5-4dc8-84d5-ca6a659f0d3a"
+                  name="Управление электричеством"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fd724480-ca9b-4b3f-820b-52dcd19717b4"
+            isDerived="false"
+            sourceEndRoleName="Пользователь"
+            targetEndRoleName="Управление аудио- и видеосистемой"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="25598544-0dca-4ea9-b5a3-6c9db401a21d"
+              LastKnownName="Управление аудио- и видеосистемой"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5ff3c4fc-3c98-4a29-8bf0-56b938fe353d"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="25781be6-f822-4f82-9aa7-df51297e8529"
+                  name="Управление аудио- и видеосистемой"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="73f78d27-e07f-4c3a-8c33-9eb9c019756e"
+        name="Контроллер света"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="b7336945-e8b3-407a-90b6-5c97aa8797eb"
+            isDerived="false"
+            sourceEndRoleName="Контроллер света"
+            targetEndRoleName="Управление светом"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c0c326b9-c65c-476a-9736-6a42d313456b"
+              LastKnownName="Управление светом"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e1be79ad-2557-455c-b5b2-5a5c1667067c"
+                  name="Контроллер света"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="11b9dc99-139d-4b01-8662-2ba4fe31c0e8"
+                  name="Управление светом"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b4344d86-7b54-42de-9a28-cd5482362d68"
+        name="Контроллер температуры"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="18d035f9-cc8f-4087-8684-0284c9e99227"
+            isDerived="false"
+            sourceEndRoleName="Датчик температуры"
+            targetEndRoleName="Управление климат-контролем"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="78faf6f1-0eb5-4517-b289-ab24a454e809"
+              LastKnownName="Управление климат-контролем"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="582c588c-5461-4e69-ad8e-1cdbf30f0de9"
+                  name="Датчик температуры"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5dfc269b-8f57-455d-adb4-6189bd9776f0"
+                  name="Управление климат-контролем"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="45e2edde-cf51-465d-af6e-41559b497ccb"
+        name="Камера видеонаблюдения"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8bbdbd8c-7879-4ed3-b3f9-e402925d0460"
+            isDerived="false"
+            sourceEndRoleName="Камера видеонаблюдения"
+            targetEndRoleName="Управление системой видеонаблюдения"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ff206c2c-adfd-473d-906c-bdcb799f82ec"
+              LastKnownName="Управление системой видеонаблюдения"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bf1e6741-faf4-4bee-baeb-06fe96932286"
+                  name="Камера видеонаблюдения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2be904ee-b384-4f1b-8b60-64d76c73c179"
+                  name="Управление системой видеонаблюдения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="023be995-a679-40aa-9b74-ff869fbe08e0"
+        name="Датчик движения"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4f2da0b3-65ab-4325-97ae-1e92263bf8bd"
+        name="Контроллер дыма"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cf75029a-0327-4b5b-93c0-048378a60b80"
+            isDerived="false"
+            sourceEndRoleName="Датчики дыма"
+            targetEndRoleName="Управление системой пожаротушения"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="56a7c669-cf08-485c-a786-ff1467a3e94a"
+              LastKnownName="Управление системой пожаротушения"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1cc07b70-5b75-426d-84bb-c3b728823e33"
+                  name="Датчики дыма"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1d18dd3-5281-4c64-96c0-c48e9e05768c"
+                  name="Управление системой пожаротушения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c0c326b9-c65c-476a-9736-6a42d313456b"
+        name="Управление светом"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="7f982a1d-56ab-4175-96cd-cf3dd79dd99a"
+            isDerived="false"
+            sourceEndRoleName="Управление светом"
+            targetEndRoleName="Контроллер света"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="73f78d27-e07f-4c3a-8c33-9eb9c019756e"
+              LastKnownName="Контроллер света"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="118748ca-10f1-49c1-965f-9982cc100b60"
+                  name="Управление светом"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="762f3cbd-a25a-46b1-bf75-f94f1a19f947"
+                  name="Контроллер света"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="5731113d-6e15-46ec-a975-6b77d8dcd9e2"
+        name="БД"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="78ae6442-dd67-4197-be9b-3912cdd69075"
+            isDerived="false"
+            sourceEndRoleName="БД"
+            targetEndRoleName="Управление системой видеонаблюдения"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ff206c2c-adfd-473d-906c-bdcb799f82ec"
+              LastKnownName="Управление системой видеонаблюдения"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c35e7f8d-8c30-41e2-a8ce-ee96ca85dbaf"
+                  name="БД"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8bd075a7-8134-4741-bba2-c56c502a0d6e"
+                  name="Управление системой видеонаблюдения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="78faf6f1-0eb5-4517-b289-ab24a454e809"
+        name="Управление климат-контролем"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a47d01ba-4110-4ea9-8901-b99296111ce2"
+            isDerived="false"
+            sourceEndRoleName="Управление климат-контролем"
+            targetEndRoleName="Датчик температуры"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="b4344d86-7b54-42de-9a28-cd5482362d68"
+              LastKnownName="Контроллер температуры"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1861a0ed-0315-45d1-aaef-8ac3c2a76eb7"
+                  name="Управление климат-контролем"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7efa5db1-1b35-4364-909e-9c1bc9a820ce"
+                  name="Датчик температуры"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ff206c2c-adfd-473d-906c-bdcb799f82ec"
+        name="Управление системой видеонаблюдения"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f49c895e-307b-44f8-8395-8a8b7e61e125"
+            isDerived="false"
+            sourceEndRoleName="Управление системой видеонаблюдения"
+            targetEndRoleName="Пользователь"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="21fbd3a0-5e8c-4013-a25b-e4f9addda82c"
+              LastKnownName="Пользователь"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="209ac366-b37d-4206-bae2-a5e46137ced6"
+                  name="Управление системой видеонаблюдения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="51fb2bf0-efbf-4e9d-af6e-0a77214da2b6"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a2e6698b-0557-4df3-b6ef-5fe1d9b4fd2b"
+            isDerived="false"
+            sourceEndRoleName="Управление системой видеонаблюдения"
+            targetEndRoleName="БД"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="5731113d-6e15-46ec-a975-6b77d8dcd9e2"
+              LastKnownName="БД"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f84c2f69-79ce-4664-a8c8-dd55abc816f1"
+                  name="Управление системой видеонаблюдения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fe388f1d-ee3a-424c-a61d-97ce15981df9"
+                  name="БД"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="56a7c669-cf08-485c-a786-ff1467a3e94a"
+        name="Управление системой пожаротушения"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f66f7321-ce80-488e-b45b-d16927cfdbf4"
+            isDerived="false"
+            sourceEndRoleName="Управление системой пожаротушения"
+            targetEndRoleName="Пожарная служба"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="1369f6f7-f3e3-4da3-9ad8-eb73a0263716"
+              LastKnownName="Пожарная служба"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="19f80adc-0fff-40a1-961d-dde82727c404"
+                  name="Управление системой пожаротушения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="916b86ee-4968-4f8b-95bd-dc4a646d970e"
+                  name="Пожарная служба"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7c53db13-03ce-4599-8245-20864d61d69f"
+            isDerived="false"
+            sourceEndRoleName="Управление системой пожаротушения"
+            targetEndRoleName="Пользователь"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="21fbd3a0-5e8c-4013-a25b-e4f9addda82c"
+              LastKnownName="Пользователь"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aa9b2b6c-0603-4db5-8b53-718440f07f00"
+                  name="Управление системой пожаротушения"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e6c6fd3a-9205-48f5-8a8c-3575139de541"
+                  name="Пользователь"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="1369f6f7-f3e3-4da3-9ad8-eb73a0263716"
+        name="Пожарная служба"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="9d857d3e-07fb-4dfc-90be-91f40f88841d"
+        name="Контроллер электричества"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="b4a1c593-9e82-4b02-83f5-d90ab0fe20c0"
+            isDerived="false"
+            sourceEndRoleName="Контроллер электричества"
+            targetEndRoleName="Управление электричеством"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a0ed6108-c3f0-4c01-9031-1f59e2589ce6"
+              LastKnownName="Управление электричеством"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a3bebb5d-21ae-442b-8dfc-86ccc2cbae07"
+                  name="Контроллер электричества"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="520e45f1-6943-402d-bf3c-054451171175"
+                  name="Управление электричеством"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="bc44d37d-afa0-465b-9b05-8e4c7a405af5"
+        name="Управление электричеством"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a0ed6108-c3f0-4c01-9031-1f59e2589ce6"
+        name="Управление электричеством"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="be30c493-b553-4d37-b076-c1ac635b4d79"
+            isDerived="false"
+            sourceEndRoleName="Управление электричеством"
+            targetEndRoleName="Контроллер электричества"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="9d857d3e-07fb-4dfc-90be-91f40f88841d"
+              LastKnownName="Контроллер электричества"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8e8fb31d-38e0-4caa-b85a-de11711f9de6"
+                  name="Управление электричеством"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0dfa3929-111c-436a-85fc-113b32b47b1c"
+                  name="Контроллер электричества"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="25598544-0dca-4ea9-b5a3-6c9db401a21d"
+        name="Управление аудио- и видеосистемой"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="77dffef6-b875-41f3-844f-35c2ca45204b"
+            isDerived="false"
+            sourceEndRoleName="Управление аудио- и видеосистемой"
+            targetEndRoleName="Аудио, видеосистема"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="3f9acf12-1480-4c6d-95fb-b7618df5a730"
+              LastKnownName="Аудио, видеосистема"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d27d2c57-2f35-45d3-8f36-02c56ce611be"
+                  name="Управление аудио- и видеосистемой"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="db54b181-4806-4ac8-940a-3d68368b5464"
+                  name="Аудио, видеосистема"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="3f9acf12-1480-4c6d-95fb-b7618df5a730"
+        name="Аудио, видеосистема"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="b8e19967-cb4b-4208-97be-b3cd78f1db74"
+            isDerived="false"
+            sourceEndRoleName="Аудио, видеосистема"
+            targetEndRoleName="Управление аудио- и видеосистемой"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="25598544-0dca-4ea9-b5a3-6c9db401a21d"
+              LastKnownName="Управление аудио- и видеосистемой"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9240c45-b0cf-45b2-858b-6c1ff49b8fa0"
+                  name="Аудио, видеосистема"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1abdab4-20c1-490a-8ecf-6673a3bc63eb"
+                  name="Управление аудио- и видеосистемой"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="923a4023-047e-44a3-93ae-46ca57b2005f"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="08437e91-9216-4c71-91d0-a5ba47a4591d"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="177288f9-2eab-47e1-a5af-1aa7560b1206"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="208f6d52-57e6-4892-a8f3-52812870e185"
+                  LastKnownName="Вход в систему"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="208f6d52-57e6-4892-a8f3-52812870e185"
+            name="Вход в систему"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1d50d306-cf0b-4469-96fd-0c156dcb5552"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="afe873b6-f94e-4d14-8e7d-1d6b8d87feac"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f81e6812-dd39-4d48-a5bb-161bdd9bb70f"
+            name="Отправка запроса на получение данных"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6cc0e53f-a88e-4b48-93f3-589ec8c35a6d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="cc32c2d6-95b0-4ad1-8f3a-80d6f3279a6c"
+                  LastKnownName="Получение данных с контроллеров"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="cc32c2d6-95b0-4ad1-8f3a-80d6f3279a6c"
+            name="Получение данных с контроллеров"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d610a3a1-1d65-4455-a09c-28fd037682ad"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="a5e8d3ca-00a9-407c-bcb8-feb276b58035"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="1dedaa68-101a-4e42-9b06-b3b9a1e74fd8"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="48a8255f-cb49-4000-b0a6-a9ea916c72a9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="61e6ea68-f16f-49cf-a32f-d2363cd3b73a"
+                  LastKnownName="Нажата кнопка выхода"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="ad3b5631-ba94-4f7c-b502-0de68597acc7"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="968fa52c-bb63-49f1-b554-7f77c7e0e783"
+                  LastKnownName="Не нажата кнопка выхода"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="61e6ea68-f16f-49cf-a32f-d2363cd3b73a"
+            name="Нажата кнопка выхода"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9de6559d-e179-4525-86a3-a1f931c23732"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="f539f627-6ed3-4ad7-83a4-d41ab61f7205"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="968fa52c-bb63-49f1-b554-7f77c7e0e783"
+            name="Не нажата кнопка выхода"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c1e5bd00-f5f0-4312-9c69-d1281def01b6"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="208f6d52-57e6-4892-a8f3-52812870e185"
+                  LastKnownName="Вход в систему"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="f539f627-6ed3-4ad7-83a4-d41ab61f7205"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <decisionNode
+            Id="afe873b6-f94e-4d14-8e7d-1d6b8d87feac"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="349acea2-b146-46f9-ab29-8fd08301ab3c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f81e6812-dd39-4d48-a5bb-161bdd9bb70f"
+                  LastKnownName="Отправка запроса на получение данных"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="a046bdb1-7495-485e-b9f4-24cca26ea678"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="811c3d9b-0c7e-4fd0-a7b4-74e40875aff8"
+                  LastKnownName="Изменять состояние контроллера"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="811c3d9b-0c7e-4fd0-a7b4-74e40875aff8"
+            name="Изменять состояние контроллера"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="580cce58-09c1-45b4-814d-f09cd980578a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0539ca9b-3c35-487b-8f4f-3e147a8082c6"
+                  LastKnownName="Не изменять состояние контроллера"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="711e1a98-5c8a-4a09-905e-94137498ff64"
+                isLeaf="false">
+                <forkNodeMoniker
+                  Id="e00b28c1-f2ec-4f11-98a8-32c3cef41601"
+                  LastKnownName="Fork1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="a5e8d3ca-00a9-407c-bcb8-feb276b58035"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b45992b3-d841-4db6-8a7f-90ff58d627bc"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="811c3d9b-0c7e-4fd0-a7b4-74e40875aff8"
+                  LastKnownName="Изменять состояние контроллера"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="21c14f1b-5a43-4c34-9c5b-80069ddb7784"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0539ca9b-3c35-487b-8f4f-3e147a8082c6"
+                  LastKnownName="Не изменять состояние контроллера"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="0539ca9b-3c35-487b-8f4f-3e147a8082c6"
+            name="Не изменять состояние контроллера"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8d3cd5ed-0470-4a81-9f67-9a2ab61cee06"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="1dedaa68-101a-4e42-9b06-b3b9a1e74fd8"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode
+            Id="e00b28c1-f2ec-4f11-98a8-32c3cef41601"
+            name="Fork1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d7da9e77-fa69-4624-ab60-8cda373b1ff3"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="be0cc339-0390-4e6e-bebb-61a8d4a15478"
+                  LastKnownName="Изменить состояние контроллера света"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="592bb8e5-8d48-4d3b-a438-42a352dd156a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="819f1511-ba89-467b-b74e-a0e87717111d"
+                  LastKnownName="Изменить состояние контроллера электричества"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="f9c589c4-dcf9-4b87-9e66-05580af8c54b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="76b36488-7635-43b3-88d5-7a0008fcd6fe"
+                  LastKnownName="Изменить состояние контроллера температуры"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="b5c0deda-89d4-47c3-a358-e76832205bcc"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f1a05761-9e7e-493c-8483-07773be47948"
+                  LastKnownName="Изменить состояние аудио- и видеосистемы"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction
+            Id="be0cc339-0390-4e6e-bebb-61a8d4a15478"
+            name="Изменить состояние контроллера света"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cc592c37-9beb-44ac-ad5f-4f63854c1a81"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d83cc976-5ca1-4e71-a650-670fdecb70e3"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="819f1511-ba89-467b-b74e-a0e87717111d"
+            name="Изменить состояние контроллера электричества"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="787b7166-9b15-47b5-ac99-72feae74bf47"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d83cc976-5ca1-4e71-a650-670fdecb70e3"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="76b36488-7635-43b3-88d5-7a0008fcd6fe"
+            name="Изменить состояние контроллера температуры"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c114e62c-9f28-44f1-8a9b-1a12293aa8e5"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d83cc976-5ca1-4e71-a650-670fdecb70e3"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f1a05761-9e7e-493c-8483-07773be47948"
+            name="Изменить состояние аудио- и видеосистемы"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8258c50b-52ab-47d4-8b8a-bb599f97f579"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d83cc976-5ca1-4e71-a650-670fdecb70e3"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode
+            Id="d83cc976-5ca1-4e71-a650-670fdecb70e3"
+            name="Join1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
