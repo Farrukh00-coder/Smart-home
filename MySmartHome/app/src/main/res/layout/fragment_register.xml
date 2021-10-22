@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/fragment_vertical_margin"
+        android:paddingLeft="@dimen/fragment_horizontal_margin"
+        android:paddingRight="@dimen/fragment_horizontal_margin"
+        android:paddingTop="@dimen/fragment_vertical_margin"
+        tools:context=".MainActivity" >
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtlastname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Enter your Usernamee"
+            android:inputType="textPersonName"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edtfirstname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtlastname"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="Enter your first name"
+            android:inputType="textPersonName"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtUsername"
+            android:layout_below="@+id/edtUsername"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Enter Password Please"
+            android:inputType="textPassword"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtConfirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtPass"
+            android:layout_below="@+id/edtPass"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:hint="Confrim Password"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtConfirmPass"
+            android:layout_below="@+id/edtConfirmPass"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Enter valid e-mail "
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edtlastname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtUsername"
+            android:layout_below="@+id/edtfirstname"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint=" Last name "
+            android:inputType="textPersonName"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtEmail"
+            android:layout_alignLeft="@+id/edtEmail"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#5D3FD3"
+            android:gravity="center"
+            android:text="Join Us" />
+
+    </RelativeLayout>
+</ScrollView>
