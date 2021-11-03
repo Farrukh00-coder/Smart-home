@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartHome">
         <activity
-            android:name=".LightScreen"
+            android:name=".HomeScreen"
             android:exported="true" />
         <activity
-            android:name=".HomeScreen"
+            android:name=".LightScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
