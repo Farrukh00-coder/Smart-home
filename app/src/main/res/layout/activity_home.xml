@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".HomeScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/home"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <ImageView
+        android:id="@+id/imageLight"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/light" />
+
+    <ImageView
+        android:id="@+id/imageAudioVideo"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/imageDoors"
+        app:layout_constraintTop_toBottomOf="@+id/textTemperature"
+        app:srcCompat="@drawable/audiovideo" />
+
+    <ImageView
+        android:id="@+id/imageDoors"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTemperature"
+        app:srcCompat="@drawable/doors" />
+
+    <ImageView
+        android:id="@+id/imageElectricity"
+        android:layout_width="60dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/electricity" />
+
+    <ImageView
+        android:id="@+id/imageTemperature"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageElectricity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageLight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/temperature" />
+
+    <TextView
+        android:id="@+id/textLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light"
+        app:layout_constraintEnd_toEndOf="@+id/imageLight"
+        app:layout_constraintStart_toStartOf="@+id/imageLight"
+        app:layout_constraintTop_toBottomOf="@+id/imageLight" />
+
+    <TextView
+        android:id="@+id/textTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"
+        app:layout_constraintEnd_toEndOf="@+id/imageTemperature"
+        app:layout_constraintStart_toStartOf="@+id/imageTemperature"
+        app:layout_constraintTop_toBottomOf="@+id/imageTemperature" />
+
+    <TextView
+        android:id="@+id/textElectricity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/electricity"
+        app:layout_constraintEnd_toEndOf="@+id/imageElectricity"
+        app:layout_constraintStart_toStartOf="@+id/imageElectricity"
+        app:layout_constraintTop_toBottomOf="@+id/imageElectricity" />
+
+    <TextView
+        android:id="@+id/textDoors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doors"
+        app:layout_constraintEnd_toEndOf="@+id/imageDoors"
+        app:layout_constraintStart_toStartOf="@+id/imageDoors"
+        app:layout_constraintTop_toBottomOf="@+id/imageDoors" />
+
+    <TextView
+        android:id="@+id/textAudioVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/audioVideo"
+        app:layout_constraintEnd_toEndOf="@+id/imageAudioVideo"
+        app:layout_constraintStart_toStartOf="@+id/imageAudioVideo"
+        app:layout_constraintTop_toBottomOf="@+id/imageAudioVideo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
