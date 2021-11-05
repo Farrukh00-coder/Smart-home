@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">SmartHome</string>
-    <string name="home">Home</string>
-    <string name="light">Light</string>
-    <string name="temperature">Temperature</string>
-    <string name="electricity">Electricity</string>
-    <string name="doors">Electricity</string>
-    <string name="audioVideo">Audio/Video</string>
-</resources>
