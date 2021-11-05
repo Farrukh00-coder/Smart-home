@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#7B2918"
+    android:padding="40dp"
+    android:id="@+id/activity_log_in"
+    tools:context=".LogIn_Activity">
+
+
+    <TextView
+        android:id="@+id/txt_HelloAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="Hello, Admin!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp"
+        android:layout_marginVertical="40dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_userMgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Users Manger"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#271F1E"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_roommgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rooms Manager"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#271F1E"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#271F1E"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn_helloarrow"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        android:layout_gravity="left|center"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#271F1E"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
