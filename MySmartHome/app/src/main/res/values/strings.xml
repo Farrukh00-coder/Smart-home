@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">SmartHome</string>
     <!-- Strings related to login -->
+    <string name="Home">Home</string>
     <string name="prompt_email">Email</string>
+    <string name="light">Light</string>
+    <string name="temperature">Temperature</string>
+    <string name="Electricity">Electricity</string>
+    <string name="VideoAudio">Video/Audio</string>
+    <string name="Locks">Locks</string>
+
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -15,7 +22,9 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+    <string name="Fridge">Fridge</string>
+    <string name="AC">AC</string>
+    <string name="Toaster">Toaster</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

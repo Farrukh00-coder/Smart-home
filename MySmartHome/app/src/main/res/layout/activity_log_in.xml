@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#7B2918"
+    android:background="@color/White"
     android:padding="40dp"
     android:id="@+id/activity_log_in"
     tools:context=".LogIn_Activity">
@@ -17,15 +17,14 @@
         android:layout_width="wrap_content"
         android:layout_height="64dp"
         android:layout_gravity="center"
-        android:text="SmartHome"
+        android:text="Smart Home"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/shadeblack"
         android:textSize="35dp"
         android:layout_marginVertical="40dp"
-
         android:textStyle="bold|italic" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/edt_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,12 +33,13 @@
         android:hint="Uername"
         android:inputType="text"
         android:padding="15dp"
-        android:textColor="@color/colorAccent"
-        android:textColorHint="@color/milk_white"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColorHint="@android:color/black"
 
         />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
+        android:background="@drawable/edit_box"
         android:id="@+id/edt_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,9 +48,8 @@
         android:textColor="@color/colorAccent"
         android:hint="Password"
         android:inputType="textPassword"
-        android:background="@drawable/edit_box"
-        android:textColorHint="@color/milk_white"
-
+        android:textColorHint="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
         />
 
     <Button
@@ -59,8 +58,8 @@
         android:layout_height="wrap_content"
         android:text="Login"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#271F1E"
-        android:background="@drawable/button_shape"
+
+        android:background="@drawable/custom_imagebutton"
         android:layout_marginTop="10dp"
         />
     <LinearLayout
@@ -75,7 +74,8 @@
             android:layout_height="wrap_content"
             android:text="Forgot Passsword ?"
             android:clickable="true"
-            android:textColor="@color/colorAccent"/>
+
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/tv_register"
@@ -83,9 +83,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Register"
-
             android:clickable="true"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@android:color/black"/>
     </LinearLayout>
 
 </LinearLayout>

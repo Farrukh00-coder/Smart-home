@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#7B2918"
+    android:padding="40dp"
+    android:id="@+id/activity_log_in"
+    tools:context=".LogIn_Activity">
+
+
+    <TextView
+        android:id="@+id/txt_smathome"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="SmartHome"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp"
+        android:layout_marginVertical="40dp"
+
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edt_newusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:textColorHint="#000000"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+    <EditText
+        android:id="@+id/edt_newid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:textColorHint="#000000"
+
+        android:hint="Enter ID"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+
+        />
+
+    <EditText
+        android:id="@+id/edt_newpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:textColorHint="#000000"
+        android:hint="Password"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id="@+id/edt_newconf_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:textColorHint="#000000"
+
+        />
+
+    <Button
+        android:id="@+id/btn_addUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#271F1E"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

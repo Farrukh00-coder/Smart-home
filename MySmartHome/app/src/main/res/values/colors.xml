@@ -5,4 +5,8 @@
     <color name="colorPrimaryDark">#1a0a3a</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="milk_white">#e4e4e4 </color>
+    <color name="Bordo">#7B2918</color>
+    <color name="ThemeBlue">#1565C0</color>
+    <color name="White">#FFFFFF</color>
+    <color name="shadeblack">#454545</color>
 </resources>
