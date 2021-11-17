@@ -1,19 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/White"
+    android:padding="40dp"
+    android:id="@+id/activity_log_in"
+    tools:context=".LogIn_Activity">
 
-    <fragment
-        android:id="@+id/nav_host_fragment_content_hello_admin_scrn"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:defaultNavHost="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/nav_graph" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txt_HelloAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="Hello, Admin!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp"
+        android:layout_marginVertical="40dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_userMgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Users Manger"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/ThemeBlue"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_roommgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rooms Manager"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/ThemeBlue"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/ThemeBlue"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn_helloarrow"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        android:layout_gravity="left|center"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#271F1E"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Home"
     android:id="@+id/RL_HomeScreen"
-    android:background="@color/milk_white"
+    android:background="@android:color/white"
     >
 
  <TextView
@@ -173,7 +173,7 @@
  </LinearLayout>
 
  <Button
-     android:id="@+id/btn_back"
+     android:id="@+id/btn_backhome"
      android:layout_width="75dp"
      android:layout_height="wrap_content"
      android:layout_below="@id/id_Linear_Images"

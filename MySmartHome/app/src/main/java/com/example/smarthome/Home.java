@@ -25,6 +25,19 @@ public class Home extends AppCompatActivity {
         IB_Locks = findViewById(R.id.IB_Locks);
         IB_VidAud = findViewById(R.id.IB_VidAud);
 
+        btn_back = findViewById(R.id.btn_backhome);
+
+
+
+
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),HelloAdminscrn.class);
+                startActivity(i);
+                setContentView(R.layout.content_hello_admin_scrn);
+            }
+        });
 
        IB_VidAud.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +48,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-
+/*
         IB_Locks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,7 +57,7 @@ public class Home extends AppCompatActivity {
                 setContentView(R.layout.activity_doors);
             }
         });
-
+*/
         IB_electricity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

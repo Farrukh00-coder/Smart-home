@@ -29,7 +29,7 @@ public class AddUserScreen extends AppCompatActivity {
 
                 Intent i = new Intent(getApplicationContext(),HelloAdminscrn.class);
                 startActivity(i);
-                setContentView(R.layout.activity_hello_adminscrn);
+                setContentView(R.layout.content_hello_admin_scrn);
             }
         });
 

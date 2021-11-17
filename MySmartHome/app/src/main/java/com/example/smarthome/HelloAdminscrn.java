@@ -15,9 +15,9 @@ public class HelloAdminscrn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hello_adminscrn);
+        setContentView(R.layout.content_hello_admin_scrn);
         btn_home = findViewById(R.id.btn_home);
-        btn_back_hel = findViewById(R.id.btn_back_hel);
+        btn_back_hel = findViewById(R.id.btn_helloarrow);
 
         btn_home.setOnClickListener(new View.OnClickListener() {
             @Override

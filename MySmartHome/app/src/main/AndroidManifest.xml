@@ -10,15 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartHome">
         <activity
+            android:name=".AudioVideo"
+            android:exported="false" />
+        <activity
             android:name=".ElectricityControl"
             android:exported="false" />
-        <activity
-            android:name=".AudioVideo"
-            android:exported="false"
-                                  />
-        <activity
-            android:name=".Doors"
-            android:exported="false" />
+
         <activity
             android:name=".AddUserScreen"
             android:exported="false" />

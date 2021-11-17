@@ -29,7 +29,7 @@ public class ElectricityControl extends AppCompatActivity {
     private LinearLayout expandableview;
     private TextView tv_eleclabel;
     private CardView cardview;
-    private Button btn_backArrow;
+    private Button btn_backElec;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,9 +39,23 @@ public class ElectricityControl extends AppCompatActivity {
         expandableview = findViewById(R.id.expanable_view);
         tv_eleclabel = findViewById(R.id.id_TvelecLabel);
         cardview = findViewById(R.id.id_cardview);
+         btn_backElec = findViewById(R.id.btn_backArrow);
 
+
+
+
+         btn_backElec.setOnClickListener(new View.OnClickListener() {
+             @Override
+              public void onClick(View view) {
+                 Intent i = new Intent(getApplicationContext(),Home.class);
+                 startActivity(i);
+                 setContentView(R.layout.activity_home);
+             }
+         });
 
     }
+
+
 
     public void Fridge(View view) {
 
@@ -56,6 +70,7 @@ public class ElectricityControl extends AppCompatActivity {
         }
 
 
+
       /*  btn_backArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,6 +81,8 @@ public class ElectricityControl extends AppCompatActivity {
         });
 */
     }
+
+
 
 
 }

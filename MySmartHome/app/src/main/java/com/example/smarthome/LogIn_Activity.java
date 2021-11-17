@@ -39,7 +39,7 @@ public class LogIn_Activity extends AppCompatActivity
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),HelloAdminscrn.class);
                 startActivity(i);
-                setContentView(R.layout.activity_hello_adminscrn);
+                setContentView(R.layout.content_hello_admin_scrn);
             }
         });
 
